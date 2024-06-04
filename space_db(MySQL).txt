@@ -1,0 +1,10 @@
+create table space_news_list (
+   idx int not null auto_increment,
+    title_name varchar(200) not null,
+    link_url varchar(200),
+    author_name varchar(50),
+    launch_date datetime,
+    news_contents text,
+   news_contents_detail text,
+    primary key(idx)
+);
